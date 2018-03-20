@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         datas.add("FragmentTransfer");
         datas.add("FragmentDataTransfer");
         datas.add("ListFragmentEx");
-        
+        datas.add("ListFragementDivideEx");
+
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, datas);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(this);
