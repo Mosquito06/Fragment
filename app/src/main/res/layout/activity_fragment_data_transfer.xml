@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/activity_fragement_application"
+    tools:context="kr.or.dgit.bigdata.fragment.FragmentDataTransfer">
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="kr.or.dgit.bigdata.fragment.FragmentToolBar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout="@layout/fragment_toolbar"/>
+
+    <fragment
+        android:id="@+id/text_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="kr.or.dgit.bigdata.fragment.FragmentText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout="@layout/fragment_text"/>
+</RelativeLayout>

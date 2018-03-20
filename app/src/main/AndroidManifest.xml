@@ -18,7 +18,10 @@
         </activity>
         <activity android:name=".FragmentLifeCycle" />
         <activity android:name=".FragmentReuse" />
-        <activity android:name=".FragmentManager"></activity>
+        <activity android:name=".FragmentManager" />
+        <activity android:name=".FragmentTransfer" />
+        <activity android:name=".FragmentDataTransfer" />
+        <activity android:name=".ListFragmentEx"></activity>
     </application>
 
 </manifest>

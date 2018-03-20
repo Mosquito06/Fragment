@@ -27,7 +27,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         datas.add("FragmentLifeCycle");
         datas.add("FragmentReuse");
         datas.add("FragmentManager");
-
+        datas.add("FragmentTransfer");
+        datas.add("FragmentDataTransfer");
+        datas.add("ListFragmentEx");
+        
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, datas);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(this);
