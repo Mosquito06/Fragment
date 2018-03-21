@@ -16,5 +16,15 @@
         <item>가다. 나아가다(move along). go for walk : 산책하러 가다.</item>
     </string-array>
 
+    <string-array name="fruit">
+        <item>사과</item>
+        <item>딸기</item>
+        <item>수박</item>
+        <item>바나나</item>
+        <item>감</item>
+        <item>복숭아</item>
+        <item>자두</item>
+    </string-array>
+
 
 </resources>

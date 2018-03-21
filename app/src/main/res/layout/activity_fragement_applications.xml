@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 확인 창" />
+
+    <Button
+        android:id="@+id/dialogBtn"
+        android:text="DialogFragment"
+        android:onClick="btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/questionBtn"
+        android:text="질문 대화상자 열기"
+        android:onClick="btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/listBtn"
+        android:text="목록 대화상자 열기"
+        android:onClick="btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/singleChoiceBtn"
+        android:text="Single Choice 대화상자 열기"
+        android:onClick="btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/multiChoiceBtn"
+        android:text="Multi Choice 대화상자 열기"
+        android:onClick="btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/customBtn"
+        android:text="Custom 대화상자 열기"
+        android:onClick="btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

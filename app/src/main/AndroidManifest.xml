@@ -22,7 +22,8 @@
         <activity android:name=".FragmentTransfer" />
         <activity android:name=".FragmentDataTransfer" />
         <activity android:name=".ListFragmentEx" />
-        <activity android:name=".ListFragementDivideEx"></activity>
+        <activity android:name=".ListFragementDivideEx" />
+        <activity android:name=".FragementApplications"></activity>
     </application>
 
 </manifest>
