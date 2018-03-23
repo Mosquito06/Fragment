@@ -23,7 +23,14 @@
         <activity android:name=".FragmentDataTransfer" />
         <activity android:name=".ListFragmentEx" />
         <activity android:name=".ListFragementDivideEx" />
-        <activity android:name=".FragementApplications"></activity>
+        <activity android:name=".FragementApplications" />
+        <activity android:name=".MultiDisplayFragmentEx" />
+        <activity android:name=".PlanerDescActivity" />
+        <activity android:name=".PrefFragment" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

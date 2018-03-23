@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         datas.add("ListFragmentEx");
         datas.add("ListFragementDivideEx");
         datas.add("FragementApplications");
+        datas.add("MultiDisplayFragmentEx");
+        datas.add("PrefFragment");
+        datas.add("Main3Activity");
+
 
 
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, datas);
