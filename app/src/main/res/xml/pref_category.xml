@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="정보"
+        android:key="pref_user_settings">
+
+        <CheckBoxPreference
+            android:key="pref_key_gender"
+            android:summary="정보공개"
+            android:title="사용자 정보"
+            android:defaultValue="false"/>
+        <Preference
+            android:key="pref_key_age"
+            android:dependency="pref_key_gender"
+            android:summary="나이는"
+            android:title="나이"/>
+        <Preference
+            android:key="pref_key_birth"
+            android:dependency="pref_key_gender"
+            android:summary="생년월일"
+            android:title="생일"/>
+    </PreferenceCategory>
+</PreferenceScreen>
