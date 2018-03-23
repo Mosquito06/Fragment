@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         datas.add("PrefFragment");
         datas.add("Main3Activity");
         datas.add("ViewPager");
-
+        datas.add("ItemListActivity");
 
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, datas);
         listView.setAdapter(adapter);
