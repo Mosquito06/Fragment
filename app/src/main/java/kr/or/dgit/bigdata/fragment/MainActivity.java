@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         datas.add("Main3Activity");
         datas.add("ViewPager");
         datas.add("ItemListActivity");
+        datas.add("RecyclerViewActivity");
+        datas.add("NavigationActivity");
+        datas.add("TabLayoutActivity");
 
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, datas);
         listView.setAdapter(adapter);

@@ -8,4 +8,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
+
+    <style name="drawer_open">Open navigation drawer</style>
+
+    <style name="drawer_close">Close navigation drawer</style>
 </resources>
